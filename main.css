@@ -1,0 +1,33 @@
+.product_table {
+    border: 1px solid black;
+    border-collapse: collapse;/*去掉表格边框线*/
+    border-spacing: 0px;
+
+}
+
+.product_table th {
+    background-color: rgb(236, 147, 217);
+    color: rgb(240, 244, 248);
+    font-weight: bolder;
+}
+
+.product_table tbody td{
+    border-left: 1px solid black;
+    border-bottom: 1px solid #555555;
+    background-color: bisque;
+}
+
+.product_table tfoot td {
+    background-color: rgb(150, 208, 247);
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center{ text-align: center;}
+.text-right {text-align: right;}
+
+
